@@ -3,5 +3,8 @@ language: objective-c
 cache: bundler
 before_install:
   - gem install cocoapods -v '0.33.1'
+  - cd Example
+  - pod install
+  - cd ..
 script:
 - xctool test -workspace Example/EPSNameFormatter.xcworkspace -scheme EPSNameFormatter -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
