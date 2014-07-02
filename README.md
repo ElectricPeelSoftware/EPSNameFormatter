@@ -1,6 +1,6 @@
 # EPSNameFormatter
 
-[![CI Status](http://img.shields.io/travis/ElectricPeelSoftware/EPSNameFormatter.svg?style=flat)](https://travis-ci.org/Peter Stuart/EPSNameFormatter)
+[![CI Status](http://img.shields.io/travis/ElectricPeelSoftware/EPSNameFormatter.svg?style=flat)](https://travis-ci.org/ElectricPeelSoftware/EPSNameFormatter)
 [![Version](https://img.shields.io/cocoapods/v/EPSNameFormatter.svg?style=flat)](http://cocoadocs.org/docsets/EPSNameFormatter)
 [![License](https://img.shields.io/cocoapods/l/EPSNameFormatter.svg?style=flat)](http://cocoadocs.org/docsets/EPSNameFormatter)
 [![Platform](https://img.shields.io/cocoapods/p/EPSNameFormatter.svg?style=flat)](http://cocoadocs.org/docsets/EPSNameFormatter)
