@@ -1,5 +1,5 @@
 PODS:
-  - EPSNameFormatter (0.1.0)
+  - EPSNameFormatter (0.1)
 
 DEPENDENCIES:
   - EPSNameFormatter (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  EPSNameFormatter: 6244847e58f914d3e15b78b33747b6e6c59b2923
+  EPSNameFormatter: bb8e7fe9d187d1c4d6252eb8ec9ca03ccff6b547
 
 COCOAPODS: 0.33.1
