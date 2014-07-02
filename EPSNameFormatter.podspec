@@ -10,27 +10,17 @@
 Pod::Spec.new do |s|
   s.name             = "EPSNameFormatter"
   s.version          = "0.1.0"
-  s.summary          = "A short description of EPSNameFormatter."
-  s.description      = <<-DESC
-                       An optional longer description of EPSNameFormatter
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/EPSNameFormatter"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "A class which formats people's names appropriately for their language."
+  s.homepage         = "https://github.com/ElectricPeelSoftware/EPSNameFormatter"
   s.license          = 'MIT'
   s.author           = { "Peter Stuart" => "peter@electricpeelsoftware.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/EPSNameFormatter.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.source           = { :git => "https://github.com/ElectricPeelSoftware/EPSNameFormatter.git", :tag => s.version.to_s }
+  
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
   s.resources = 'Pod/Assets/*.png'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'Pod/Classes/**/*.h'
 end

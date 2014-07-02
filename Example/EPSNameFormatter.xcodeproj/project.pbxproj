@@ -7,180 +7,176 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
-		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
-		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* EPSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* EPSAppDelegate.m */; };
-		6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F59F195388D20070C39A /* Main_iPhone.storyboard */; };
-		6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A2195388D20070C39A /* Main_iPad.storyboard */; };
-		6003F5A7195388D20070C39A /* EPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* EPSViewController.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		5BC539C32FFC408980BEC874 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8CF88C6AA4454FBFB46CDE /* libPods-Tests.a */; };
+		B7215EC2E47F43D789C50AE4 /* libPods-EPSNameFormatter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A662AEAC940E461E88C3C2A7 /* libPods-EPSNameFormatter.a */; };
+		D069638A196473DC00A4B99B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0696389196473DC00A4B99B /* Foundation.framework */; };
+		D069638C196473DC00A4B99B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D069638B196473DC00A4B99B /* CoreGraphics.framework */; };
+		D069638E196473DC00A4B99B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D069638D196473DC00A4B99B /* UIKit.framework */; };
+		D0696394196473DC00A4B99B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0696392196473DC00A4B99B /* InfoPlist.strings */; };
+		D0696396196473DC00A4B99B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0696395196473DC00A4B99B /* main.m */; };
+		D069639A196473DC00A4B99B /* EPSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0696399196473DC00A4B99B /* EPSAppDelegate.m */; };
+		D069639D196473DC00A4B99B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D069639B196473DC00A4B99B /* Main.storyboard */; };
+		D06963A0196473DC00A4B99B /* EPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D069639F196473DC00A4B99B /* EPSViewController.m */; };
+		D06963A2196473DC00A4B99B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06963A1196473DC00A4B99B /* Images.xcassets */; };
+		D06963A9196473DC00A4B99B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D06963A8196473DC00A4B99B /* XCTest.framework */; };
+		D06963AA196473DC00A4B99B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0696389196473DC00A4B99B /* Foundation.framework */; };
+		D06963AB196473DC00A4B99B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D069638D196473DC00A4B99B /* UIKit.framework */; };
+		D06963B3196473DC00A4B99B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D06963B1196473DC00A4B99B /* InfoPlist.strings */; };
+		D06963B5196473DC00A4B99B /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D06963B4196473DC00A4B99B /* Tests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+		D06963AC196473DC00A4B99B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			containerPortal = D069637E196473DC00A4B99B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteGlobalIDString = D0696385196473DC00A4B99B;
 			remoteInfo = EPSNameFormatter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4A4E98C83867403698860557 /* EPSNameFormatter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = EPSNameFormatter.podspec; path = ../EPSNameFormatter.podspec; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* EPSNameFormatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPSNameFormatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* EPSNameFormatter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPSNameFormatter-Info.plist"; sourceTree = "<group>"; };
-		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* EPSNameFormatter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EPSNameFormatter-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* EPSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPSAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* EPSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPSAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A0195388D20070C39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		6003F5A3195388D20070C39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* EPSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPSViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* EPSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPSViewController.m; sourceTree = "<group>"; };
-		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
-		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		C56836511FB646FD8C40A163 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EADD8F218E9C449990582862 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		57C1293488F54C1F901EE6A6 /* Pods-Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.xcconfig"; path = "Pods/Pods-Tests.xcconfig"; sourceTree = "<group>"; };
+		62F789D4EBE34532917ED940 /* Pods-EPSNameFormatter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPSNameFormatter.xcconfig"; path = "Pods/Pods-EPSNameFormatter.xcconfig"; sourceTree = "<group>"; };
+		8A8CF88C6AA4454FBFB46CDE /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A662AEAC940E461E88C3C2A7 /* libPods-EPSNameFormatter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EPSNameFormatter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0696386196473DC00A4B99B /* EPSNameFormatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPSNameFormatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0696389196473DC00A4B99B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D069638B196473DC00A4B99B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D069638D196473DC00A4B99B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0696391196473DC00A4B99B /* EPSNameFormatter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPSNameFormatter-Info.plist"; sourceTree = "<group>"; };
+		D0696393196473DC00A4B99B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0696395196473DC00A4B99B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0696397196473DC00A4B99B /* EPSNameFormatter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EPSNameFormatter-Prefix.pch"; sourceTree = "<group>"; };
+		D0696398196473DC00A4B99B /* EPSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPSAppDelegate.h; sourceTree = "<group>"; };
+		D0696399196473DC00A4B99B /* EPSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPSAppDelegate.m; sourceTree = "<group>"; };
+		D069639C196473DC00A4B99B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D069639E196473DC00A4B99B /* EPSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPSViewController.h; sourceTree = "<group>"; };
+		D069639F196473DC00A4B99B /* EPSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPSViewController.m; sourceTree = "<group>"; };
+		D06963A1196473DC00A4B99B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D06963A7196473DC00A4B99B /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06963A8196473DC00A4B99B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D06963B0196473DC00A4B99B /* EPSNameFormatterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPSNameFormatterTests-Info.plist"; sourceTree = "<group>"; };
+		D06963B2196473DC00A4B99B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D06963B4196473DC00A4B99B /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6003F587195388D20070C39A /* Frameworks */ = {
+		D0696383196473DC00A4B99B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
-				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				D069638C196473DC00A4B99B /* CoreGraphics.framework in Frameworks */,
+				D069638E196473DC00A4B99B /* UIKit.framework in Frameworks */,
+				D069638A196473DC00A4B99B /* Foundation.framework in Frameworks */,
+				B7215EC2E47F43D789C50AE4 /* libPods-EPSNameFormatter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AB195388D20070C39A /* Frameworks */ = {
+		D06963A4196473DC00A4B99B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				D06963A9196473DC00A4B99B /* XCTest.framework in Frameworks */,
+				D06963AB196473DC00A4B99B /* UIKit.framework in Frameworks */,
+				D06963AA196473DC00A4B99B /* Foundation.framework in Frameworks */,
+				5BC539C32FFC408980BEC874 /* libPods-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6003F581195388D10070C39A = {
+		D069637D196473DC00A4B99B = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* EPSNameFormatter */,
-				6003F5B5195388D20070C39A /* Tests */,
-				6003F58C195388D20070C39A /* Frameworks */,
-				6003F58B195388D20070C39A /* Products */,
+				D069638F196473DC00A4B99B /* EPSNameFormatter */,
+				D06963AE196473DC00A4B99B /* Tests */,
+				D0696388196473DC00A4B99B /* Frameworks */,
+				D0696387196473DC00A4B99B /* Products */,
+				62F789D4EBE34532917ED940 /* Pods-EPSNameFormatter.xcconfig */,
+				57C1293488F54C1F901EE6A6 /* Pods-Tests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
-		6003F58B195388D20070C39A /* Products */ = {
+		D0696387196473DC00A4B99B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* EPSNameFormatter.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				D0696386196473DC00A4B99B /* EPSNameFormatter.app */,
+				D06963A7196473DC00A4B99B /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6003F58C195388D20070C39A /* Frameworks */ = {
+		D0696388196473DC00A4B99B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58D195388D20070C39A /* Foundation.framework */,
-				6003F58F195388D20070C39A /* CoreGraphics.framework */,
-				6003F591195388D20070C39A /* UIKit.framework */,
-				6003F5AF195388D20070C39A /* XCTest.framework */,
+				D0696389196473DC00A4B99B /* Foundation.framework */,
+				D069638B196473DC00A4B99B /* CoreGraphics.framework */,
+				D069638D196473DC00A4B99B /* UIKit.framework */,
+				D06963A8196473DC00A4B99B /* XCTest.framework */,
+				A662AEAC940E461E88C3C2A7 /* libPods-EPSNameFormatter.a */,
+				8A8CF88C6AA4454FBFB46CDE /* libPods-Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* EPSNameFormatter */ = {
+		D069638F196473DC00A4B99B /* EPSNameFormatter */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* EPSAppDelegate.h */,
-				6003F59D195388D20070C39A /* EPSAppDelegate.m */,
-				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
-				6003F5A2195388D20070C39A /* Main_iPad.storyboard */,
-				6003F5A5195388D20070C39A /* EPSViewController.h */,
-				6003F5A6195388D20070C39A /* EPSViewController.m */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
-				6003F594195388D20070C39A /* Supporting Files */,
+				D0696398196473DC00A4B99B /* EPSAppDelegate.h */,
+				D0696399196473DC00A4B99B /* EPSAppDelegate.m */,
+				D069639B196473DC00A4B99B /* Main.storyboard */,
+				D069639E196473DC00A4B99B /* EPSViewController.h */,
+				D069639F196473DC00A4B99B /* EPSViewController.m */,
+				D06963A1196473DC00A4B99B /* Images.xcassets */,
+				D0696390196473DC00A4B99B /* Supporting Files */,
 			);
 			path = EPSNameFormatter;
 			sourceTree = "<group>";
 		};
-		6003F594195388D20070C39A /* Supporting Files */ = {
+		D0696390196473DC00A4B99B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* EPSNameFormatter-Info.plist */,
-				6003F596195388D20070C39A /* InfoPlist.strings */,
-				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* EPSNameFormatter-Prefix.pch */,
+				D0696391196473DC00A4B99B /* EPSNameFormatter-Info.plist */,
+				D0696392196473DC00A4B99B /* InfoPlist.strings */,
+				D0696395196473DC00A4B99B /* main.m */,
+				D0696397196473DC00A4B99B /* EPSNameFormatter-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6003F5B5195388D20070C39A /* Tests */ = {
+		D06963AE196473DC00A4B99B /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
-				6003F5B6195388D20070C39A /* Supporting Files */,
+				D06963B4196473DC00A4B99B /* Tests.m */,
+				D06963AF196473DC00A4B99B /* Supporting Files */,
 			);
-			path = Tests;
+			name = Tests;
+			path = EPSNameFormatterTests;
 			sourceTree = "<group>";
 		};
-		6003F5B6195388D20070C39A /* Supporting Files */ = {
+		D06963AF196473DC00A4B99B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5B7195388D20070C39A /* Tests-Info.plist */,
-				6003F5B8195388D20070C39A /* InfoPlist.strings */,
-				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+				D06963B0196473DC00A4B99B /* EPSNameFormatterTests-Info.plist */,
+				D06963B1196473DC00A4B99B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				4A4E98C83867403698860557 /* EPSNameFormatter.podspec */,
-				C56836511FB646FD8C40A163 /* README.md */,
-				EADD8F218E9C449990582862 /* LICENSE */,
-			);
-			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* EPSNameFormatter */ = {
+		D0696385196473DC00A4B99B /* EPSNameFormatter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "EPSNameFormatter" */;
+			buildConfigurationList = D06963B8196473DC00A4B99B /* Build configuration list for PBXNativeTarget "EPSNameFormatter" */;
 			buildPhases = (
-				6003F586195388D20070C39A /* Sources */,
-				6003F587195388D20070C39A /* Frameworks */,
-				6003F588195388D20070C39A /* Resources */,
+				B599AF6C4F5140879872773B /* Check Pods Manifest.lock */,
+				D0696382196473DC00A4B99B /* Sources */,
+				D0696383196473DC00A4B99B /* Frameworks */,
+				D0696384196473DC00A4B99B /* Resources */,
+				3F6AE4920F0F44FC88F459CB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,43 +184,45 @@
 			);
 			name = EPSNameFormatter;
 			productName = EPSNameFormatter;
-			productReference = 6003F58A195388D20070C39A /* EPSNameFormatter.app */;
+			productReference = D0696386196473DC00A4B99B /* EPSNameFormatter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* Tests */ = {
+		D06963A6196473DC00A4B99B /* Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildConfigurationList = D06963BB196473DC00A4B99B /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
-				6003F5AA195388D20070C39A /* Sources */,
-				6003F5AB195388D20070C39A /* Frameworks */,
-				6003F5AC195388D20070C39A /* Resources */,
+				06B76E3D28A14E55B81AA6B2 /* Check Pods Manifest.lock */,
+				D06963A3196473DC00A4B99B /* Sources */,
+				D06963A4196473DC00A4B99B /* Frameworks */,
+				D06963A5196473DC00A4B99B /* Resources */,
+				C565DA5FDA674DB1BD8A5AAA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+				D06963AD196473DC00A4B99B /* PBXTargetDependency */,
 			);
 			name = Tests;
 			productName = EPSNameFormatterTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = D06963A7196473DC00A4B99B /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6003F582195388D10070C39A /* Project object */ = {
+		D069637E196473DC00A4B99B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = EPS;
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = Peter Stuart;
+				ORGANIZATIONNAME = "Electric Peel, LLC";
 				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
+					D06963A6196473DC00A4B99B = {
+						TestTargetID = D0696385196473DC00A4B99B;
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "EPSNameFormatter" */;
+			buildConfigurationList = D0696381196473DC00A4B99B /* Build configuration list for PBXProject "EPSNameFormatter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -232,97 +230,151 @@
 				en,
 				Base,
 			);
-			mainGroup = 6003F581195388D10070C39A;
-			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			mainGroup = D069637D196473DC00A4B99B;
+			productRefGroup = D0696387196473DC00A4B99B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* EPSNameFormatter */,
-				6003F5AD195388D20070C39A /* Tests */,
+				D0696385196473DC00A4B99B /* EPSNameFormatter */,
+				D06963A6196473DC00A4B99B /* Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6003F588195388D20070C39A /* Resources */ = {
+		D0696384196473DC00A4B99B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
-				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				D06963A2196473DC00A4B99B /* Images.xcassets in Resources */,
+				D0696394196473DC00A4B99B /* InfoPlist.strings in Resources */,
+				D069639D196473DC00A4B99B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AC195388D20070C39A /* Resources */ = {
+		D06963A5196473DC00A4B99B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				D06963B3196473DC00A4B99B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06B76E3D28A14E55B81AA6B2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3F6AE4920F0F44FC88F459CB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-EPSNameFormatter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B599AF6C4F5140879872773B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C565DA5FDA674DB1BD8A5AAA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		6003F586195388D20070C39A /* Sources */ = {
+		D0696382196473DC00A4B99B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* EPSAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* EPSViewController.m in Sources */,
-				6003F59A195388D20070C39A /* main.m in Sources */,
+				D06963A0196473DC00A4B99B /* EPSViewController.m in Sources */,
+				D0696396196473DC00A4B99B /* main.m in Sources */,
+				D069639A196473DC00A4B99B /* EPSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AA195388D20070C39A /* Sources */ = {
+		D06963A3196473DC00A4B99B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				D06963B5196473DC00A4B99B /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+		D06963AD196473DC00A4B99B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* EPSNameFormatter */;
-			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+			target = D0696385196473DC00A4B99B /* EPSNameFormatter */;
+			targetProxy = D06963AC196473DC00A4B99B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+		D0696392196473DC00A4B99B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6003F597195388D20070C39A /* en */,
+				D0696393196473DC00A4B99B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		6003F59F195388D20070C39A /* Main_iPhone.storyboard */ = {
+		D069639B196473DC00A4B99B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6003F5A0195388D20070C39A /* Base */,
+				D069639C196473DC00A4B99B /* Base */,
 			);
-			name = Main_iPhone.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6003F5A2195388D20070C39A /* Main_iPad.storyboard */ = {
+		D06963B1196473DC00A4B99B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6003F5A3195388D20070C39A /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F5B9195388D20070C39A /* en */,
+				D06963B2196473DC00A4B99B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -330,7 +382,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6003F5BD195388D20070C39A /* Debug */ = {
+		D06963B6196473DC00A4B99B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -365,11 +417,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		6003F5BE195388D20070C39A /* Release */ = {
+		D06963B7196473DC00A4B99B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -397,13 +448,13 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		6003F5C0195388D20070C39A /* Debug */ = {
+		D06963B9196473DC00A4B99B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F789D4EBE34532917ED940 /* Pods-EPSNameFormatter.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -415,8 +466,9 @@
 			};
 			name = Debug;
 		};
-		6003F5C1195388D20070C39A /* Release */ = {
+		D06963BA196473DC00A4B99B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F789D4EBE34532917ED940 /* Pods-EPSNameFormatter.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -428,8 +480,9 @@
 			};
 			name = Release;
 		};
-		6003F5C3195388D20070C39A /* Debug */ = {
+		D06963BC196473DC00A4B99B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57C1293488F54C1F901EE6A6 /* Pods-Tests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EPSNameFormatter.app/EPSNameFormatter";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -438,20 +491,21 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREFIX_HEADER = "EPSNameFormatter/EPSNameFormatter-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				INFOPLIST_FILE = "EPSNameFormatterTests/EPSNameFormatterTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		6003F5C4195388D20070C39A /* Release */ = {
+		D06963BD196473DC00A4B99B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57C1293488F54C1F901EE6A6 /* Pods-Tests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EPSNameFormatter.app/EPSNameFormatter";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -460,8 +514,8 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				GCC_PREFIX_HEADER = "EPSNameFormatter/EPSNameFormatter-Prefix.pch";
+				INFOPLIST_FILE = "EPSNameFormatterTests/EPSNameFormatterTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -471,34 +525,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "EPSNameFormatter" */ = {
+		D0696381196473DC00A4B99B /* Build configuration list for PBXProject "EPSNameFormatter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6003F5BD195388D20070C39A /* Debug */,
-				6003F5BE195388D20070C39A /* Release */,
+				D06963B6196473DC00A4B99B /* Debug */,
+				D06963B7196473DC00A4B99B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "EPSNameFormatter" */ = {
+		D06963B8196473DC00A4B99B /* Build configuration list for PBXNativeTarget "EPSNameFormatter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6003F5C0195388D20070C39A /* Debug */,
-				6003F5C1195388D20070C39A /* Release */,
+				D06963B9196473DC00A4B99B /* Debug */,
+				D06963BA196473DC00A4B99B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Tests" */ = {
+		D06963BB196473DC00A4B99B /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6003F5C3195388D20070C39A /* Debug */,
-				6003F5C4195388D20070C39A /* Release */,
+				D06963BC196473DC00A4B99B /* Debug */,
+				D06963BD196473DC00A4B99B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6003F582195388D10070C39A /* Project object */;
+	rootObject = D069637E196473DC00A4B99B /* Project object */;
 }
