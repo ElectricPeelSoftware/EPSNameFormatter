@@ -10,6 +10,9 @@
 
 @interface EPSNameFormatter : NSObject
 
+/// @param firstName May be `nil`.
+/// @param lastName May be `nil`.
+/// @return A full name, formatted based on the detected language of the first and last name.
 - (NSString *)displayNameFromFirstName:(NSString *)firstName lastName:(NSString *)lastName;
 
 @end
