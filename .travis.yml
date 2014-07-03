@@ -2,6 +2,9 @@ reference: http://www.objc.io/issue-6/travis-ci.html
 language: objective-c
 cache: bundler
 before_install:
+  - brew unlink xctool
+  - brew update
+  - brew install xctool
   - gem install cocoapods -v '0.33.1'
   - cd Example
   - pod install
